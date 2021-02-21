@@ -1,4 +1,6 @@
 # learn-Express
 learn from https://reurl.cc/NX02Gp
 
-[學習筆記連結](https://www.notion.so/3ec57bf4640e4aa0aad7da9ceb37eadd?v=5541949a978147ae8b9c2335b9ef5e94)
+學習筆記：
+* [Express/Node introduction](https://www.notion.so/Express-Node-introduction-4bbee69c1f0f4b5d8176feebe197d877)
+* [如何設定動態路由](https://www.notion.so/6b8e459589c14bc8bff6183db41cb188)
