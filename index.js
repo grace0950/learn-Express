@@ -10,8 +10,14 @@ app.get("/", function (req, res) { //當使用者連線到伺服器根目錄("/"
   res.send("<b>Welcome to Express!</b>");
 });
 
+//靜態路由範例
 app.get("/test", function (req, res) { //當使用者連線到 /test 時，做出回應
   res.send("This is test path!");
+});
+
+//動態路由範例
+app.get("/animal/:animal", (req, res) => {
+  res.send(`This is an ${req.params.animal}.`);
 });
 
 app.listen(3000, function () {
